@@ -9,6 +9,7 @@ We will:
 
 ### Presentation
 - [Waton Visual Recognition PDF](asset/watson-vr-cloudinary.pdf)
+- [Cloudiary IBM Watson Presentation](asset/Cloudinary_IBM_Watson.key)
 
 ## Your speakers are:
 ### Aditi Madan
