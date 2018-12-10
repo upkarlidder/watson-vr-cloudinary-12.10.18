@@ -1,8 +1,8 @@
 ## test images
-export watson_visual_directory="/Users/ulidder/Desktop/galvanize-07.24.18/gsk-hackathon-images/test"
+export watson_visual_directory="xxx"
 
 ## visual model ID 
-export watson_visual_key="7VkHQCHWvkjpNZKCBaGUPDQeWfPwZ57CNQQoqg1pJqCq"
+export watson_visual_key="xxx"
 
 ## Classify an image using URL
 
@@ -36,20 +36,3 @@ curl -X POST -u "apikey:$watson_visual_key" -F "images_file=@$watson_visual_dire
 
 ## Use both default and the custom models
 curl -X POST -u "apikey:$watson_visual_key" -F "images_file=@$watson_visual_directory_root/assets/sample-images/mucinex-1.JPG" -F "classifier_ids=medicinexcustomxupkar_1628839369" -F "threshold=0" "https://gateway.watsonplatform.net/visual-recognition/api/v3/classify?version=2018-03-19"
-
-
-
-
-
-
-
-## DONE
-
-
-curl -u "apikey:$watson_visual_key" "https://gateway.watsonplatform.net/visual-recognition/api/v3/classify?url=https://github.com/lidderupk/watson-visual-galvanize-08.25.18/blob/master/assets/sf-cable-car.jpg?raw=true&version=2018-03-19"
-
-/Users/ulidder/Documents/screenshots/test-upkar.jpg
-
-
-curl -X POST -u "apikey:$watson_visual_key" -F "images_file=@/Users/ulidder/Documents/screenshots/test-upkar.jpg" "https://gateway.watsonplatform.net/visual-recognition/api/v3/classify?version=2018-03-19"
-
